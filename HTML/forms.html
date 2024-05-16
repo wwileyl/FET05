@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- allows us to code using english keyboard -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- FORMS -->
+
+    <form>
+        <h3>Sample Form</h3>
+
+        <!-- Text Input -->
+        <label for="name">Username:</label>
+        <input type="text" id="name" required>
+
+        <br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter your password" required>
+
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="sampleemail@gmail.com" required>
+
+        <br>
+
+        <!-- Text Area -->
+        <label for="message">Message:</label>
+        <textarea id="message" rows="4" cols="50" placeholder="Enter your message here" style="resize: none;"></textarea>
+
+        <br>
+
+        <!-- Select / Dropdown Menu -->
+        <label for="favorite-food">Favorite Food:</label>
+        <select id="favorite-food" required>
+            <option selected disabled>Select your favorite food</option>
+            <option value="pizza">Pizza</option>
+            <option value="steak">Steak</option>
+            <option value="fries">Fries</option>
+            <option value="icecream">Ice Cream</option>
+            <option value="others">Others</option>
+        </select>
+
+        <br><br>
+
+        <!-- Radio Buttons -->
+        <input type="radio" name="options" id="option1" value="option1">
+        <label for="option1">Option 1</label>
+        <input type="radio" name="options" id="option2" value="option2">
+        <label for="option2">Option 2</label>
+        <input type="radio" name="options" id="option3" value="option3">
+        <label for="option3">Option 3</label>
+
+        <br><br>
+
+        <!-- Checkboxes -->
+        <input type="checkbox" name="checkboxes" id="check1" value="check1">
+        <label for="check1">Check 1</label>
+        <input type="checkbox" name="checkboxes" id="check1" value="check2">
+        <label for="check2">Check 2</label>
+        <input type="checkbox" name="checkboxes" id="check1" value="check3">
+        <label for="check3">Check 3</label>
+
+        <br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

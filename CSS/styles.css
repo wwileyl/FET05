@@ -1,0 +1,79 @@
+/* Universal Selector */
+* {
+    color: brown;
+}
+
+/* Element Selector */
+p {
+    color: red;
+}
+
+/* Class Selector */
+.parag1 { /* Add a . before the name for class selector */
+    color: rgb(190, 210, 38);
+}
+
+/* ID Selector */
+#parag2 { /*Add # before the name for ID selector */
+    color: aquamarine;
+}
+
+/* Attribute Selector */
+/* This will target href attribute */
+[href] {
+    color: brown;
+}
+
+/* <a> with href */
+a[href] {
+    color: darkgreen;
+}
+
+/* Value of href */
+a[href="www.example1.com"] {
+    color: pink;
+}
+
+/* Grouping Selector */
+/* h2, h3 {
+    font-size: 20px;
+    background-color: yellow;
+} */
+
+.heading2, #heading3, h5 {
+    font-size: 20px;
+    background-color: yellow;
+}
+
+/* Pseudo Classes */
+h2:hover {
+    background-color: skyblue;
+    color: brown;
+}
+
+/* Pseudo Elements */
+h3::before {
+    content: "Placed before h3: ";
+}
+
+h3::after {
+    content: " :Placed after h3"
+}
+
+h3::first-letter {
+    color: blue;
+}
+
+/* Earlier rule */
+#btn {
+    color: red;
+}
+
+/* Later rule */
+button {
+    color: blue;
+}
+
+/* Specificity
+Style attribute --> ID --> Class, Attribute, Pseudo-class --> Elements
+*/

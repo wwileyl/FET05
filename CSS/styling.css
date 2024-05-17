@@ -1,0 +1,81 @@
+body {
+    /* images */
+    /* background-image: url("./images/bg.jpg") */
+
+    /* links/url */
+    /* background-image: url("https://images.unsplash.com/photo-1614849286447-fb815456e5a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGxpZ2h0JTIwY29sb3VyfGVufDB8fDB8fHww&w=1000&q=80"); */
+
+    /* colors */
+    background-color: cornflowerblue;
+
+    /* gradient */
+    background: rgb(223, 209, 134);
+    background: linear-gradient(54deg, rgba(223, 209, 134, 1) 0%, rgba(202, 158 , 107, 1) 38%, rgba(95, 180, 65, 1) 100%);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* Font Sample */
+.font-sample {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Text Sample */
+.text-sample {
+    text-align:center;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+/* Text spacing */
+#spacing-sample {
+    letter-spacing: 5px;
+    line-height: 10;
+}
+
+/* Text shadow */
+#shadow-sample {
+    text-shadow: 10px 5px 10px rgb(77, 39, 116);
+    /* text-shadow:
+    x-coordinate
+    y-coordinate
+    blur radius
+    color of the shadow */
+}
+
+.box-model {
+    background-color: antiquewhite;
+    height: 100px;
+    width: 100px;
+
+    /* padding-left: 10px; */
+    padding: 10px 20px 5px 25px;
+
+    border-width: 5px;
+    border-style: dotted;
+    border-color: crimson;
+    border: 10px double blue;
+
+    border-top: 5px solid green;
+    border-right: 10px dashed orange;
+    border-bottom: 8px dotted purple;
+    border-left: 8px groove pink;
+
+    border-radius: 20px;
+    margin: 5px 10px 40px 8px;
+    /* margin: margin-left, margin-right, margin-top, margin-bottom */
+}
+
+/* ==PADDING==
+    1 value = applied to all 4 sides
+    2 value = top and bottom side || right and left side
+    3 value = top side || left and right side || bottom side
+    4 value = top side || right side || bottom side || left side
+*/

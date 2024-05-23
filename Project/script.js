@@ -97,5 +97,26 @@ function deleteOrCompleteTodo(event) {
 }
 
 function filterTodos(event) {
-
+    const todos = todoList.childNodes;
+    console.log(event.target.value);
+    todos.forEach(function (todo) {
+        switch (event.target.value) {
+            case "all":
+                todo.style.display = "flex";
+                break;
+            case "completed":
+                if (todo.classList.contains("completed")) {
+                    todo.style.display = "flex";
+                } else {
+                    todo.style.display = "none";
+                }
+                break;
+            case "uncompleted":
+                if (!todo.classList.contains("completed")) {
+                    todo.style.display = "flex";
+                } else {
+                    todo.style.display = "none";
+                }
+        }
+    })
 }

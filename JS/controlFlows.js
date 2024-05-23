@@ -56,3 +56,9 @@ do {
     j++; 
 } 
 while (j <= 5);
+
+// simple validation
+let input = "";
+do {
+  input = prompt("Please enter a grade");
+} while ((input = ""));
